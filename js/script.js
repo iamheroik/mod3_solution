@@ -1,7 +1,11 @@
-$(function () {
-  // Same-page navigation when clicking a menu item
-  $("#collapsable-nav a").click(function(event) {
-    // Collapse navbar when a link is clicked
-    $("#collapsable-nav").collapse('hide');
+javascript$(function () {
+  // When a nav link is clicked, collapse the menu
+  $(".navbar-collapse a").click(function() {
+    $(".navbar-collapse").collapse('hide');
+  });
+  
+  // Make sure the toggle button works
+  $(".navbar-toggle").click(function() {
+    $(".navbar-collapse").collapse('toggle');
   });
 });
