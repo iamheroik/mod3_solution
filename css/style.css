@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  border-radius: 0;
+  background-color: #f6f6f6;
+  border: 2px solid #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+
+#collapsable-nav {
+  border-top: 0;
+}
+
+#collapsable-nav li a {
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 1.2em;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.menu-item {
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #e7e7e7;
+  height: 1000px;  /* Making this section tall to require scrolling */
+  overflow: auto;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  
+  .navbar-toggle {
+    margin-top: 12px;
+  }
+  
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  
+  #collapsable-nav a {
+    color: #333;
+  }
+  
+  #collapsable-nav a:hover {
+    background-color: #e7e7e7;
+  }
+}
