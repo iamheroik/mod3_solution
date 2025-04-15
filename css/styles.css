@@ -1,78 +1,101 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.navbar {
-  border-radius: 0;
-  background-color: #f6f6f6;
-  border: 2px solid #e7e7e7;
-}
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-.navbar-default .navbar-brand {
-  color: #333;
-  font-size: 1.5em;
-  font-weight: bold;
-}
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-.navbar-default .navbar-toggle {
-  border-color: #ddd;
-}
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsing-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
 
-#collapsable-nav {
-  border-top: 0;
-}
+      <!-- Mobile-only menu -->
+      <div class="collapse navbar-collapse visible-xs" id="collapsing-navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-#collapsable-nav li a {
-  text-align: center;
-  border-bottom: 1px solid #e7e7e7;
-  font-size: 1.2em;
-}
+  <!-- PAGE HEADING -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Our Menu</h1>
+      </div>
+    </div>
+  </div>
 
-h1 {
-  margin-bottom: 30px;
-  font-weight: bold;
-}
+  <!-- CHICKEN SECTION -->
+  <div id="chicken" class="container">
+    <div class="row">
+      <div class="col-xs-12 section-box">
+        <h3 class="text-center">Chicken</h3>
+        <p>
+          Our chicken dishes are prepared using farm-fresh, free-range poultry and a blend of our secret spices. Whether grilled, fried, or roasted, every bite delivers flavor and tenderness. Try our signature spicy fried chicken or the classic lemon herb roast.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget blandit lorem. Vivamus fermentum finibus magna, nec eleifend nisl volutpat vel. Sed in magna non sapien vulputate congue.
+        </p>
+        <p><a href="#">Back to Top</a></p>
+      </div>
+    </div>
+  </div>
 
-.menu-item {
-  background-color: #f6f6f6;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 2px solid #e7e7e7;
-  height: 1000px;  /* Making this section tall to require scrolling */
-  overflow: auto;
-}
+  <!-- BEEF SECTION -->
+  <div id="beef" class="container">
+    <div class="row">
+      <div class="col-xs-12 section-box">
+        <h3 class="text-center">Beef</h3>
+        <p>
+          Our beef selections include grass-fed cuts cooked to perfection. Enjoy rich, savory flavors with options like slow-braised short ribs, peppercorn-crusted filet mignon, and spicy Korean BBQ bulgogi. We never compromise on quality.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut sapien ut lacus sodales suscipit. Pellentesque in sem sed tortor lacinia varius et vel tellus. Fusce id ante ac orci viverra accumsan.
+        </p>
+        <p><a href="#">Back to Top</a></p>
+      </div>
+    </div>
+  </div>
 
-h2 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
+  <!-- SUSHI SECTION -->
+  <div id="sushi" class="container">
+    <div class="row">
+      <div class="col-xs-12 section-box">
+        <h3 class="text-center">Sushi</h3>
+        <p>
+          Our sushi menu features fresh, hand-rolled selections using sustainably sourced seafood. From classic nigiri to creative specialty rolls, we offer something for every sushi lover. Don’t miss the chef’s omakase special.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar sem in sem fermentum, at mattis ligula tincidunt. Proin vel felis eget turpis tincidunt fringilla. Morbi rutrum justo vel iaculis blandit.
+        </p>
+        <p><a href="#">Back to Top</a></p>
+      </div>
+    </div>
+  </div>
 
-/* Media queries for responsive design */
-@media (max-width: 767px) {
-  .navbar-brand {
-    padding-top: 10px;
-    height: 60px;
-  }
-  
-  .navbar-toggle {
-    margin-top: 12px;
-  }
-  
-  #collapsable-nav a {
-    font-size: 1.2em;
-  }
-  
-  #collapsable-nav a {
-    color: #333;
-  }
-  
-  #collapsable-nav a:hover {
-    background-color: #e7e7e7;
-  }
-}
-/* Custom styles */
-.section-box {
-  background-color: #f5f5f5;
-  height: 1000px;
-  padding: 20px;
-}
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
