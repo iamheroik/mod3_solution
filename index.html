@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>Food, LLC</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Food, LLC</a>
-        </div>
 
-        <!-- Collapsed menu only visible on extra small screens -->
-        <div class="collapse navbar-collapse" id="collapsable-nav">
-          <ul class="nav navbar-nav navbar-right visible-xs">
-            <li><a href="#chicken">Chicken</a></li>
-            <li><a href="#beef">Beef</a></li>
-            <li><a href="#sushi">Sushi</a></li>
-          </ul>
-        </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for mobile -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsing-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
       </div>
-    </nav>
-  </header>
 
+      <!-- Collapsible Mobile Menu -->
+      <div class="collapse navbar-collapse visible-xs" id="collapsing-navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADING -->
   <div class="container">
-    <h1 class="text-center">Our Menu</h1>
-    
     <div class="row">
       <div class="col-xs-12">
-        <div class="menu-item" id="content">
-          <h2 class="text-center">Chicken</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper tellus in libero fermentum, non ultrices dui semper. Quisque viverra ligula at diam finibus, vel ullamcorper nunc placerat. Suspendisse habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus lacinia orci ut lacus facilisis, id fermentum libero pellentesque. Sed ultrices porta ligula. Ut a est at arcu imperdiet aliquam. Proin ultricies metus eros, id porttitor purus commodo vel. Vivamus tincidunt augue quis metus vestibulum, ac interdum magna cursus. Vivamus vel sapien vehicula, fermentum ligula vel, tincidunt dui. Nullam vitae velit vel lectus ultricies euismod. Duis dapibus risus a purus pretium, non tincidunt est mattis. Donec ultrices nisi vel justo efficitur, vel molestie ligula fermentum. Proin volutpat blandit sem ac luctus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper tellus in libero fermentum, non ultrices dui semper. Quisque viverra ligula at diam finibus, vel ullamcorper nunc placerat. Suspendisse habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus lacinia orci ut lacus facilisis, id fermentum libero pellentesque. Sed ultrices porta ligula. Ut a est at arcu imperdiet aliquam. Proin ultricies metus eros, id porttitor purus commodo vel. Vivamus tincidunt augue quis metus vestibulum, ac interdum magna cursus. Vivamus vel sapien vehicula, fermentum ligula vel, tincidunt dui. Nullam vitae velit vel lectus ultricies euismod. Duis dapibus risus a purus pretium, non tincidunt est mattis. Donec ultrices nisi vel justo efficitur, vel molestie ligula fermentum. Proin volutpat blandit sem ac luctus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper tellus in libero fermentum, non ultrices dui semper. Quisque viverra ligula at diam finibus, vel ullamcorper nunc placerat. Suspendisse habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus lacinia orci ut lacus facilisis, id fermentum libero pellentesque. Sed ultrices porta ligula. Ut a est at arcu imperdiet aliquam. Proin ultricies metus eros, id porttitor purus commodo vel. Vivamus tincidunt augue quis metus vestibulum, ac interdum magna cursus. Vivamus vel sapien vehicula, fermentum ligula vel, tincidunt dui. Nullam vitae velit vel lectus ultricies euismod. Duis dapibus risus a purus pretium, non tincidunt est mattis. Donec ultrices nisi vel justo efficitur, vel molestie ligula fermentum. Proin volutpat blandit sem ac luctus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus. Nam vel malesuada enim. Vestibulum molestie quam turpis, ut molestie diam malesuada at. Donec ornare est vel leo commodo, a lacinia turpis dapibus.</p>
-        </div>
+        <h1 class="text-center">Our Menu</h1>
       </div>
     </div>
   </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <!-- TALL SECTION -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 section-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue tincidunt, hendrerit sapien vitae, laoreet justo. Mauris condimentum libero eu mauris tincidunt, nec ullamcorper lorem gravida.</p>
+        <p>More content here to fill space... repeat or add content to ensure scrolling. You can add dummy paragraphs, or use CSS to set height.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
